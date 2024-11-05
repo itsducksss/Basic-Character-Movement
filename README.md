@@ -1,7 +1,7 @@
 # Basic-Character-Movement
 Decription
 
-This tutorial will showcase how to create a basic moveable object.
+This tutorial will showcase how to create a basic moveable object/ character.
 
 # Prerequisites
 Before approaching this tutorial, you will need a current version of Unity and a code editor (such as Microsoft Visual Studio Community) installed and ready to use.
@@ -15,8 +15,11 @@ You will also need to know how to create an empty project, add primitive objects
 https://www.youtube.com/watch?v=eQpWPfP1T6g
 
 # Primary Objectives
+The primary objective of this tutorial is to create a basic character movement that will be controlled using the arrow keys and the A,S,W,D keys.
 
-# ADD PREVIEW
+# Preview of tutroial results
+
+https://github.com/user-attachments/assets/8d3c28eb-b0e5-4b55-b873-45c0212b6a07
 
 # Getting Started
 To start this tutorial, we will need to create a new Unity Project. To the Unity scene we will add a Plane to represent the floor, and a capsule to represent the playable character.
