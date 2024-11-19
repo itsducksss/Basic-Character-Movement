@@ -47,27 +47,27 @@ We will then double click the script added, and that should load up Microsoft Vi
 
 ![image](https://github.com/user-attachments/assets/08ebb3bd-df01-48b7-a1de-953244919ae5)
 - using [insert system] means that it  can refer to that specific system and its properties when coding using references made to a specific system.
-- public means that this class can be accessed from other scripts.
+- [public](https://discussions.unity.com/t/public-or-private/9977) means that this class can be accessed from other scripts.
 - class means that what follows is a class definition.
 - : means this class inherits functions and variables from another class
-- Monobehaviour refers Unity supplied class that attaches directly to GameObjects, which we base a new class onto.
-- void refers to a function can return normally without the need of a value.
-- start means that it is enabled just before any of the Update methods are called the first time, when the Monobehaviour is enabled.
-- update means a function that gets called every frame if the MonoBehaviour is enabled.
+- [Monobehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html) refers Unity supplied class that attaches directly to GameObjects, which we base a new class onto.
+- [void](https://discussions.unity.com/t/what-does-void-mean-when-in-front-of/23128) refers to a function can return normally without the need of a value.
+- [start](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html) means that it is enabled just before any of the Update methods are called the first time, when the Monobehaviour is enabled.
+- [update](https://docs.unity3d.com/ScriptReference/PlayerLoop.Update.html) means a function that gets called every frame if the MonoBehaviour is enabled.
 
 ![image](https://github.com/user-attachments/assets/7f8c8028-9eee-46fd-9ad0-17ef91b3166c)
-- Rigidbody refers to a component you can add to a gameObject that allows for a physics-based way to control the movement and position of a GameObject.
+- [Rigidbody](https://docs.unity3d.com/ScriptReference/Rigidbody.html) refers to a component you can add to a gameObject that allows for a physics-based way to control the movement and position of a GameObject.
 - rb is what it will be called within the script. this means that when we type in rb that the Rigidbody will be referenced.
-- [SerializedField] helps to make the private variables accessible within the Unity editor without making them public, as well as helps to make serialize any private variable.
-- GetComponent means that when this action or statement is refered to that unity will detect this component from the object that the script is applied onto and use it to complete that certain action. In this case it means that when rb is mentioned that at the start of the scene that unity will get that component, and use it in the void update statement to move using the Rigidbody component on the capsule/ player.
+- [SerializedField](https://docs.unity3d.com/ScriptReference/SerializeField.html) helps to make the private variables accessible within the Unity editor without making them public, as well as helps to make serialize any private variable.
+- [GetComponent](https://docs.unity3d.com/ScriptReference/GameObject.GetComponent.html) means that when this action or statement is refered to that unity will detect this component from the object that the script is applied onto and use it to complete that certain action. In this case it means that when rb is mentioned that at the start of the scene that unity will get that component, and use it in the void update statement to move using the Rigidbody component on the capsule/ player.
 - float refers to a numerical value that can be assigned (whole or decimal).
 - MoveSpeed what the float (previous point) will be refered to within the code. This means that when y = x * MoveSpeed, that y is equal to the value of x multiplied by the MoveSpeed/ float which is 10 in the script.
 - horInput refers to the total value calculated of the Input by the user on the horizontal axis multiplied by the MoveSpeed.
 - verInput refers to the total value calculated of the Input by the user on the vertical axis multiplied by the MoveSpeed.
-- GetAxiRaw("-") refers to the axis (Horizonal or Vertical) which uses the world's x and z axis using the Left and Right, and a and d keys.
-- rb.velocity, it refers the velocity vector of the rigidbody.  it represents the rate of change of the rigid body per frame.
-- new just means new
-- Vector3 refers to the position using all 3 axis x, y, z which can be represented on a 3d space.
+- [GetAxiRaw("-")](https://docs.unity3d.com/ScriptReference/Input.GetAxisRaw.html) refers to the axis (Horizonal or Vertical) which uses the world's x and z axis using the Left and Right, and a and d keys.
+- [rb.velocity](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/Rigidbody-velocity.html), it refers the velocity vector of the rigidbody.  it represents the rate of change of the rigid body per frame.
+- [new](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/new-operator?redirectedfrom=MSDN)
+- [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) refers to the position using all 3 axis x, y, z which can be represented on a 3d space.
 
   ![image](https://github.com/user-attachments/assets/0eadee11-1914-44d2-8ca0-683320df5707)
 
