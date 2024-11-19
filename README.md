@@ -29,17 +29,17 @@ To start this tutorial, we will need to create a new Unity Project. To the Unity
 For this tutorial in the images shown throughout, the Player is shown as the green capsule, the red capsule will be used to represent other objects that you may want within the scene. Before any coding or changes to the Unity scene it is best to run the scene to ensure there are no underlying problems with the scene itself prior to the tutorial that may affected.
 
 # Moving the character
-Looking at the Unity scene, and selecting the capsule on the right hand side of the screen in the Inspector Window, we can see a the properties of the capsule. At the top of the Inspector window shows the attributes of the Transform  component of the capsule.
+Looking at the Unity scene, and selecting the capsule on the right hand side of the screen in the [Inspector Window](https://docs.unity3d.com/Manual/UsingTheInspector.html), we can see a the properties of the capsule. At the top of the [Inspector window](https://docs.unity3d.com/Manual/UsingTheInspector.html) shows the attributes of the [Transform](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Component-transform.html)  component of the capsule.
 ![image](https://github.com/user-attachments/assets/1fc638d7-4de4-48d6-81ca-aa8fb04e86c1)
 
-The transform component is used to show where an object is (in this case the capsule) within the scene, and maintaining and or chaning its position. To maintain the position of the capsule, we do not have to add an input. to change the position of the capsule we can alter the values within the position boxes of the transform components. this will change where the capsule is within a specific axis.
+The [transform](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Component-transform.html) component is used to show where an object is (in this case the capsule) within the scene, and maintaining and or chaning its position. To maintain the position of the capsule, we do not have to add an input. to change the position of the capsule we can alter the values within the position boxes of the [transform](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Component-transform.html) components. this will change where the capsule is within a specific axis.
 ![image](https://github.com/user-attachments/assets/a2553329-ee27-4e43-be49-3f40597590fe)![image](https://github.com/user-attachments/assets/baf98287-29ab-44eb-82f3-c1ad04f638d3)
 
-This image shows how the position is changed in the x axis by changing the value of the x in the Inspector Window.
+This image shows how the position is changed in the x axis by changing the value of the x in the [Inspector Window](https://docs.unity3d.com/Manual/UsingTheInspector.html).
 This means that to move the player, all we have to do is create a script that allows for the gameObjects' transform to change depending on the input.
 
 # Scripting Player Movement
-First we must select the Player capsule, in the Inspector Window select create and add new script and name it PlayerMovement. When writing scripts, the Name of a script must be written out in one word, with capital letters to indicate a space. This means PlayerMovement will show in the Inspector Window as Player Movement.
+First we must select the Player capsule, in the [Inspector Window](https://docs.unity3d.com/Manual/UsingTheInspector.html) select create and add new script and name it PlayerMovement. When writing scripts, the Name of a script must be written out in one word, with capital letters to indicate a space. This means PlayerMovement will show in the [Inspector Window](https://docs.unity3d.com/Manual/UsingTheInspector.html) as Player Movement.
 
 ![image](https://github.com/user-attachments/assets/a9020ef4-3ad8-4256-91bb-b7bc320f9400)
 
@@ -81,7 +81,7 @@ https://github.com/user-attachments/assets/00158657-6cf7-41c2-bfad-ea62fde3d77d
 
 The Rigidbody also allows the object to utilise gravity within Unity seen in the video above, as the object falls.
     
-  ![image](https://github.com/user-attachments/assets/c0f04f74-cba7-4090-8aa7-07c03b27fbac)
+![image](https://github.com/user-attachments/assets/c0f04f74-cba7-4090-8aa7-07c03b27fbac)
   
 This means that the rotation is frozen of the y and z axis. This allows for the capsule to move without the object move around without problems for now and later on when adjusting the script. The main reason we do this is to avoid the problems with the mesh's (objects in this case capsule's) collider. 
   
