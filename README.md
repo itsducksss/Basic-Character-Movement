@@ -4,6 +4,8 @@ Decription
 This tutorial will showcase how to create a basic moveable object/ character.
 
 # Prerequisites
+Code taken from : [Character Movement](https://www.youtube.com/watch?v=1n8EyEk9p40)
+
 Before approaching this tutorial, you will need a current version of Unity and a code editor (such as Microsoft Visual Studio Community) installed and ready to use.
 
 This tutorial was created with Unity 2022.3 LTS and Microsoft Visual Studio Community 2022 versions. It should work with earlier or later versions. But you should check the release notes for other versions as the Editor controls or Scripting API functions may have changed. This is as the changes in the updates can cause errors to occur that may have been fixed or changed within different versions of the Unity and Visual Studio softwares.
