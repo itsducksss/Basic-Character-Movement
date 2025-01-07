@@ -69,6 +69,8 @@ We will then double click the script added, and that should load up Microsoft Vi
 - [new](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/new-operator?redirectedfrom=MSDN)
 - [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) refers to the position using all 3 axis x, y, z which can be represented on a 3d space.
 
+This just means that the numerical value of 10 for the MoveSpeed (float) will multiply by the input of the keys (A,S,W,D) on an axis (horizonal and vertical) to move the capsule around. If the MoveSpeed float is increased then the character will move faster, if the value of the float is lower then the characetr will move at a slower speed. It also means that to move the character, the script will use the RigidBody to move the character in a new position using all 3 axiz (x, y, z) in a 3d space.There is a 0 value, as for this script, we do not care if the character moves in the y axis.
+
   ![image](https://github.com/user-attachments/assets/0eadee11-1914-44d2-8ca0-683320df5707)
 
 Before we load the scene and press play, we add the Rigidbody component. This will be used within the script to move the player in a 3d axis.
